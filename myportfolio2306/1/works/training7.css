@@ -1,0 +1,329 @@
+@charaset "UTF-8";
+
+html{
+    font-size:18px;
+}
+body{
+    max-width:100%;
+    
+
+}
+a{
+    text-decoration: none;
+    color:ivory;
+}
+a:visited{
+    color:ivory;
+}
+li{
+    list-style:none;
+}   
+header{
+    position: fixed;
+    top:0;
+    left:0%;
+    width:100%;
+    height:140px;
+    background-color: white;
+}
+
+.atama{
+    margin: 0 auto;
+    text-align: left;
+    max-width:1326px;
+}
+header h1{
+    font-size:1.25rem;
+    
+    font-weight:normal;
+    padding:2% 1%;
+    margin-bottom:0%;
+    
+    
+}
+nav{
+    max-width:1920px;
+    background-color: black;
+    
+}
+header ul{
+    margin:0 auto;
+    text-align: left;
+    
+    color: ivory;
+    max-width:1326px;
+    padding-left:0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display:flex;
+}
+header li{
+    padding-left:40px;
+    
+
+}
+header li:first-child{
+    padding-left:1%;    
+}
+main{
+    margin:0 auto;
+    
+}
+.top{
+    margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  max-width:1300px;
+  padding-top:200px;
+    
+}
+.top img{
+    width:100%;
+
+}
+.top1{
+    width:31%;
+}
+.top2{
+    width:31%;
+}
+.top3{
+    width:31%;
+}
+.readmore{
+    margin:0 auto;
+    text-align: center;
+    padding-bottom:80px;
+
+}
+.readmore a{
+    font-size: 0.75rem;
+    color: black;
+    text-decoration:underline ;
+
+}
+.readmore.a:visited{
+    font-size: 0.75rem;
+ color: black;   
+}
+.daikaramu{
+    margin: 0 auto;
+    
+    max-width:1300px;
+    display:flex;
+    justify-content: space-between;
+}
+.daikaramu img{
+    width:100%;
+}
+.daikaramu a{
+    color: black;
+}
+.daikaramu a:visited{
+    color: black;
+}
+.side{
+    width:62%
+}
+.aside{
+    width:32%;
+}
+h2{
+    font-size:1.25rem;
+}
+.meta{
+    display:flex ;
+    font-size: 0.7rem;
+    padding-left:0px;
+
+}
+.meta li:last-child{
+    padding-left:30px;
+}
+.author{
+    margin:  0 auto;
+    text-align: center;
+}
+.author img{
+    border-radius: 50%;
+    width:30%;
+
+}
+.author p{
+    text-align: left;
+    font-size: 0.875rem;
+}
+h3{
+    margin: 0 auto;
+    text-align: center;
+    padding-top:50px;
+    padding-bottom: 50px;
+}
+.archive ul{
+    margin: 0 auto;
+    font-size: 0.875rem;
+}
+.archive li{
+    padding:20px 10px;
+    border-bottom: 1px solid grey;
+}
+.archive li:first-child{
+    border-top: 1px solid gray;
+}
+.archive li:last-child{
+    margin-bottom: 50px;
+}
+footer{
+    background-color: lightgrey;
+    background-size: cover;
+    max-width:1920px;
+    margin:0 auto
+    
+}
+footer h4{
+    font-size:0.8rem;
+    padding: 3% 0%
+}
+.sandan{
+    margin:  0 auto;
+    display: flex;
+    max-width:1300px;
+    justify-content: space-between;
+}
+footer a{
+    color:black
+
+}
+footer a:visited{
+    color: black;
+}
+.about{
+    width:31%;
+}
+.about p{
+    font-size: 0.75rem;
+}
+.about a{
+    font-size: 0.75rem;
+}
+footer ul{
+    padding-left:0px;
+} 
+.menu{
+    width: 31%;
+}
+.menu li{
+    padding: 2% 0%;
+    border-bottom: 1px solid grey;
+}
+.menu li:first-child{
+    border-top:  1px solid grey;
+}
+
+.twitter{
+    width:31%;
+    
+}
+.twitter-timeline{
+    margin: 0 auto;
+}
+.sinfutta-{
+    margin: 0 auto;
+    padding-top:60px;
+    font-size: 0.6rem;
+    text-align: center;
+}
+
+
+.arrow {
+    position: relative;
+    display: inline-block;
+    padding-left: 12px;
+    color: #333;
+  }
+.arrow::before {
+    content: '';
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 6px 0 6px 8px;
+    border-color: transparent transparent transparent #333;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    margin-top: -6px;
+  }
+  @media screen and (max-width: 900px) {
+    main{
+        
+        padding-left:3%;
+        padding-right: 2%;
+    }
+    footer{
+        padding:0% 2%; 
+    }
+    header{
+        
+        padding:0% 0%;
+           
+    }
+    header h1{
+        padding:0% 2%;
+        
+    }
+    header ul{
+        justify-content: flex-start;
+        overflow-x: scroll;
+    }
+    header li:first-child{
+        padding-left:20px;
+    }
+    
+
+    .top{
+        max-width:100%;
+        flex-direction: column;
+    }  
+    .top1{
+        width:100%;
+    }
+    .top2{
+        width:100%;
+            }
+    .top3{
+        width:100%;
+    }
+    .daikaramu{
+        flex-direction: column;
+        width:100%;
+        max-width:100%;
+    }
+    .side{
+        width:100%
+    }
+    .aside{
+        width:100%
+    }
+    .sandan{
+        flex-direction:column;
+        width:100%;
+    }
+    .about{
+        width:100%;
+
+    }
+    .menu{
+        width: 100%;
+    }
+    .twitter{
+         width:100%;
+        }
+    
+    
+    .about p{
+        width:100%;
+    }
+    .archive ul{
+        padding-left:0px;
+    }
+  }
